@@ -18,6 +18,16 @@ Dapat mengerti cara untuk melakukan preprocessing dengan benar dan menghindar ma
 ## Solution Statements 
 Menggunakan aplikasi google colab dan melakukan preprocessing seperti yang telah diajarkan sebelumnya untuk membuat data yang siap digunakan di dalam machine learning
 
+# Data Understanding 
+  | Jenis                   | Keterangan                                                                              |
+  | ----------------------- | --------------------------------------------------------------------------------------- |
+  | Sumber                  | Seaborn Library |
+  | Dataset Owner           | Khashayar Baghizadeh |
+  | Lisensi                 | Open Knowledge |
+  | Kategori                | Numerik |
+  | Usability               | 75% |
+  | Jenis dan Ukuran Berkas | CSV (83.88 KB) |
+
 # Pertanyaan penting
 * Mengapa encoding diperlukan?
 * Mengapa scaling diperlukan?
