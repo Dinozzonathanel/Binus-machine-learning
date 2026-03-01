@@ -81,7 +81,7 @@ yang digunakan untuk melihat data dan informasi tentang data tersebut
 ### Histogram
 
 <br>
-<image src='https://raw.githubusercontent.com/Dinozzonathanel/Binus-machine-learning/main/Pertemuan4/Images/histogram,4,1.png' width= 500/>
+<image src='https://raw.githubusercontent.com/Dinozzonathanel/Binus-machine-learning/main/Pertemuan-4/Images/histogram4.png' width= 500/>
 <br>
 
   
