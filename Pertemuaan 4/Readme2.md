@@ -31,7 +31,8 @@ Menggunakan Kaggle untuk mencari data, menggunakan google collab untuk menjalani
 
 # Aftermath Understanding
 
-### Imports
+## Imports
+
 Jadi sebelum memulai semua hal lain, saya harus memasukan importan yang diperlukan untuk melaksanakan percobaan dengan efesien, inilah importan yang digunakan :
 
 import pandas as pd
@@ -45,7 +46,9 @@ from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 import matplotlib.pyplot as plt
 
-Lalu ada beberapa kode tambahan yang digunakan untuk mengimpor data dan memastikan kode-kode berupa float
+---------------------------------------------------------------------------------------------------------
+
+**Lalu ada beberapa kode tambahan yang digunakan untuk mengimpor data dan memastikan kode-kode berupa float**
 
 column_names = ['Crypto_Symbol', 'Date', 'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']
 data = pd.read_csv('crypto50_combined.csv', names=column_names, header=None)
@@ -64,7 +67,21 @@ print(f"Shape of data after cleaning: {data.shape}")
 
 Bagian terakhir ^^^ digunakan untuk mengcek 
 
-### 
 
+## EDA
+
+Pertama ada kode :
+df.head()
+df.info()
+df.describe()
+yang digunakan untuk melihat data dan informasi tentang data tersebut
+
+### Lalu ada grafik-grafiknya :
+
+### Histogram
+
+<br>
+<image src='https://raw.githubusercontent.com/Dinozzonathanel/Binus-machine-learning/main/Pertemuan4/Images/histogram,4,1.png' width= 500/>
+<br>
 
   
