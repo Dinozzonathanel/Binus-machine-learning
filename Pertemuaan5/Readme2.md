@@ -64,6 +64,7 @@ Ini adalah hasil diagram :
 <br>
 <image src='https://raw.githubusercontent.com/Dinozzonathanel/Binus-machine-learning/main/Pertemuan2/Images2/three.png' width= 500/>
 <br>
+  
 -------------------------------
   
 **Preprocessing** merupakan step yang sangat penting dalam supervised learning dan dalam percobaan ini saya telah membuat versi sederhana, satu melakukan cek untuk missing value, satu menghapus fungsi yang tidak digunakan, satu melakukan encoding, satu melakukan train test split , jadi iya menurut ku kali ini cukup sederhana
