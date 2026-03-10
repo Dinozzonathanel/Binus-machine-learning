@@ -72,6 +72,7 @@ Ini adalah hasil diagram :
 <br>
 <image src='https://raw.githubusercontent.com/Dinozzonathanel/Binus-machine-learning/main/Pertemuan2/Images2/skibidi.png' width= 688/>
 <br>
+  
 -------------------------------
   
 **Classification** merupakan bagian terakhir, dimana saya akhirnya membuat program prediksi untuk data "smoker"
@@ -83,6 +84,7 @@ inilah hasil visualisasi tersebut :
 <br>
 <image src='https://raw.githubusercontent.com/Dinozzonathanel/Binus-machine-learning/main/Pertemuan2/Images2/classified.png' width= 500/>
 <br>
+  
 -------------------------------
 
 # Evaluasi
