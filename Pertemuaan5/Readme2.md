@@ -48,6 +48,7 @@ plt.show()
 
 sns.heatmap(df.corr(numeric_only=True), annot=True)
 plt.show()
+
 -------------------------------
 
 Ini adalah hasil diagram : 
