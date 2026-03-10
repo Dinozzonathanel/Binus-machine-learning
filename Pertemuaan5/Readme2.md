@@ -37,7 +37,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 df = sns.load_dataset("tips")
+
 -------------------------------
+
 sns.histplot(df["tip"].dropna())
 plt.show()
 
@@ -47,6 +49,7 @@ plt.show()
 sns.heatmap(df.corr(numeric_only=True), annot=True)
 plt.show()
 -------------------------------
+
 Ini adalah hasil diagram : 
 
 <br>
@@ -61,12 +64,14 @@ Ini adalah hasil diagram :
 <image src='https://raw.githubusercontent.com/Dinozzonathanel/Binus-machine-learning/main/Pertemuan2/Images2/three.png' width= 500/>
 <br>
 -------------------------------
+  
 **Preprocessing** merupakan step yang sangat penting dalam supervised learning dan dalam percobaan ini saya telah membuat versi sederhana, satu melakukan cek untuk missing value, satu menghapus fungsi yang tidak digunakan, satu melakukan encoding, satu melakukan train test split , jadi iya menurut ku kali ini cukup sederhana
 
 <br>
 <image src='https://raw.githubusercontent.com/Dinozzonathanel/Binus-machine-learning/main/Pertemuan2/Images2/skibidi.png' width= 688/>
 <br>
 -------------------------------
+  
 **Classification** merupakan bagian terakhir, dimana saya akhirnya membuat program prediksi untuk data "smoker"
 
 Saya mulai dengan melakukan train test split, lalu membuat logistic regression dan memasukan KNN (K-Nearest Neighbour), dan setelah itu saya melakukan cek akurasi dan melihat nilai-nilai TN, FN, FP, TP, terakhir saya membuat prediction report dan sebuah visualisasi TN, FN, FP, TP
