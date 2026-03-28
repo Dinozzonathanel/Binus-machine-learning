@@ -38,3 +38,36 @@ Ini lah hasilnya dan visualisasinya :
 [[68 19]
  [16 40]]
 
+<br>
+<image src='https://raw.githubusercontent.com/Dinozzonathanel/Binus-machine-learning/main/Pertemuan2/Images2/download89.png' width= 500/>
+<br>
+
+## Accuracy, Precision, Recall, F1 score
+Setelah menyelesaikan confusion matrix saya langsung masuk kedalam bagian akurasi, presisi, recall, dan F1 score untuk melanjutkan evaluasi secara lengkap, bagian ini penting untuk melihat jika model saya cukup bagus atau tidak dan ini juga merupakan bagian sebelum classification report yang akan membantu mencari overfitting atau underfitting
+
+Inilah hasilnya : 
+Accuracy: 0.7552447552447552 (75%)
+Precision: 0.6779661016949152 (67% wkwk)
+Recall: 0.7142857142857143 (71%)
+F1 Score: 0.6956521739130435 (69%)
+
+## Classification Report 
+Classification report adalah kumpulan keseluruhan hasil dari akurasi, presisi, dll, lalu karena itu classification report dapat membantu saya dalam melihat jika model saya memiliki overfitting ataupun underfitting
+
+Inilah hasilnya : 
+
+<br>
+<image src='https://raw.githubusercontent.com/Dinozzonathanel/Binus-machine-learning/main/Pertemuan2/Images2/report.png' width= 500/>
+<br>
+
+## Cross Validation
+Saya tidak punya komentar tentang ini, tetapi cross validation dilakukan untuk mempastikan dan membantu melawan masalah overfitting atau underfitting
+
+Ini hasilnya :
+
+<br>
+<image src='https://raw.githubusercontent.com/Dinozzonathanel/Binus-machine-learning/main/Pertemuan2/Images2/rabbi.png' width= 500/>
+<br>
+
+# Evaluasi (tentang evaluasi)
+Jadi setelah menyelesaikan ini saya belajar cara menggunakan banyak metode evaluasi baru dan akhirnya semua metode dan code yang digunakan untuk evaluasi pun dimasukan ke dalam program untuk melakukan evaluasi lengkap mengenai decision tree yang sudah dibuat, saya mendapatkan hasil bagus dengan akurasi training 0.82 (82%) dan akurasi test 0.76 (76%) yang menunjukan tidak ada overfitting ataupun underfitting.
