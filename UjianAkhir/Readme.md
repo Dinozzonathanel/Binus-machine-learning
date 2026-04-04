@@ -29,3 +29,59 @@ Menggunakan website google colab untuk menjalankan program yang digunakan untuk 
   | Usability               | 50% |
   | Jenis dan Ukuran Berkas | CSV (3.86 KB) |
 
+# Percobaan
+
+## Pembuatan model
+
+### Preprocessing
+Seperti semua percobaan yang saya pernah lakukan sebelumnya, saya awali pembuatan model dengan melakukan impor dataset serta dengan fungsi-fungsi yang akan digunakan dalam pembuatan model, setelah semua itu diimpor secara sukes saya mulai dengan melakukan encoding pada semua bagian dari dataset untuk menghindari adanya desimal pada dataset sebelum dimasukan kedalam program untuk membuat model prediksi dengan seharusnya, selanjutnya saya mulai melanjutkan dengan melakukan train test split.
+
+### Pembuatan Model
+Dengan itu saya memulai pembuatan model, pertama saya menyetelkan fungsi decision tree untuk membuat prediksi :
+
+from sklearn.tree import DecisionTreeClassifier
+
+tree = DecisionTreeClassifier(
+    max_depth=4,
+    random_state=42
+)
+
+tree.fit(X_train, y_train)
+
+y_pred = tree.predict(X_test)
+
+Lalu saya melakukan logistic regression, sebelum masuk ke dalam evaluasi
+
+### Evaluasi Model
+Saya mulai mengevaluasikan model saya dengan membuat confusion matrix dan melihat True Positive, False Positive, True Negative, dan False Negative, setelah mendapatkan hasilnya yaitu:
+
+[[41  0]
+ [ 0 14]]
+
+Setelah melakukan itu saya melihat Accuracy, Percision, Recall Score, F1 Score yang semua hasilnya 1.0, setelah itu semua selesai saya akhirnya membuat tabel classification report :
+
+Training
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       131
+           1       1.00      1.00      1.00        86
+
+    accuracy                           1.00       217
+   macro avg       1.00      1.00      1.00       217
+weighted avg       1.00      1.00      1.00       217
+
+Test
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        41
+           1       1.00      1.00      1.00        14
+
+    accuracy                           1.00        55
+   macro avg       1.00      1.00      1.00        55
+weighted avg       1.00      1.00      1.00        55
+
+<br>
+<image src='https://raw.githubusercontent.com/Dinozzonathanel/Binus-machine-learning/main/Pertemuan2/Images2/evaluation.png' width= 500/>
+<br>
+
+### 
