@@ -100,5 +100,11 @@ from sklearn.model_selection import StratifiedKFold
 
 skf = StratifiedKFold(n_splits=5)
 
+### Pembandingan
+Jadi setelah melihat kedua model yaitu model Training dan Test, mereka berdoa rata-rata sama dan akurat dan sepertinya hanya support yang berbeda tetapi saya tidak tau jika itu memengaruhi apapun, secara logika jika lebih besar supportnya juga lebih bagus berarti model Training lebih bagus, tetapi masih saja keduanya rata-rata cukup bagus.
+
+Tetapi karena itu saya merasa ada terjadinya overfitting pada kedua model karena banyak atau kurangnya data pada dataset.
+
+
 # Evaluasi (Laporan)
 Saya merasa cukup baik dengan hasilku, tetapi menurut saya sepertinya karena banyak data (Atau kurangnya) model mengalami overfitting, model terlihat akurat dan memiliki persisi tinggi dan saya telah membuat laporan lengkap yang dari pandangan ku bagus, saya senang dapat belajar dan membuat percobaan ini mengetahui bahwa ini mungkin merupakan tugas terakhir dari kursus ini, tetapi dengan itu saya akan mencoba untuk belajar lebih lagi sebagai seorang murid, Terimakasih sudah membaca.
