@@ -60,7 +60,7 @@ Saya mulai mengevaluasikan model saya dengan membuat confusion matrix dan meliha
 
 Setelah melakukan itu saya melihat Accuracy, Percision, Recall Score, F1 Score yang semua hasilnya 1.0, setelah itu semua selesai saya akhirnya membuat tabel classification report :
 
-Training
+### Training
               precision    recall  f1-score   support
 
            0       1.00      1.00      1.00       131
@@ -70,7 +70,7 @@ Training
    macro avg       1.00      1.00      1.00       217
 weighted avg       1.00      1.00      1.00       217
 
-Test
+### Test
               precision    recall  f1-score   support
 
            0       1.00      1.00      1.00        41
@@ -81,7 +81,24 @@ Test
 weighted avg       1.00      1.00      1.00        55
 
 <br>
-<image src='https://raw.githubusercontent.com/Dinozzonathanel/Binus-machine-learning/main/Pertemuan2/Images2/evaluation.png' width= 500/>
+<image src='https://raw.githubusercontent.com/Dinozzonathanel/Binus-machine-learning/main/Pertemuan2/Images2/evaluation.jpg' width= 500/>
 <br>
 
-### 
+<br>
+<image src='https://raw.githubusercontent.com/Dinozzonathanel/Binus-machine-learning/main/Pertemuan2/Images2/visual.png' width= 500/>
+<br>
+
+### Validasi Silang (Cross Fitting)
+Terakhir saya melakukan cross fitting, saya menggunakan program tersebut untuk menbulatkan hasil dari "score" semua nilai-nilai seperti akurasi, persisi, dll, dan dari itu hasilnya adalah :
+
+Scores: [1. 1. 1. 1. 1.]
+Mean Accuracy: 1.0
+
+dan terakhir saya melakukan program:
+
+from sklearn.model_selection import StratifiedKFold
+
+skf = StratifiedKFold(n_splits=5)
+
+# Evaluasi (Laporan)
+Saya merasa cukup baik dengan hasilku, tetapi menurut saya sepertinya karena banyak data (Atau kurangnya) model mengalami overfitting, model terlihat akurat dan memiliki persisi tinggi dan saya telah membuat laporan lengkap yang dari pandangan ku bagus, saya senang dapat belajar dan membuat percobaan ini mengetahui bahwa ini mungkin merupakan tugas terakhir dari kursus ini, tetapi dengan itu saya akan mencoba untuk belajar lebih lagi sebagai seorang murid, Terimakasih sudah membaca.
